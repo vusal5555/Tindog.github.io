@@ -1,0 +1,197 @@
+*{
+  font-family: Montserrat, Ubuntu;
+}
+
+body {
+  font-family: Montserrat, Ubuntu;
+}
+
+
+#title {
+  background-color: #ff4c68;
+  padding-bottom: 20rem;
+}
+
+
+.meet {
+  font-size: 3.5rem ;
+  font-family: Montserrat;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+
+/*nav-bar section*/
+
+nav .navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.item-con {
+  padding: 0px 18px;
+}
+
+.about {
+  padding-right: 0;
+}
+
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat;
+}
+
+.title-img {
+  
+  transform: rotate(20deg);
+  
+  
+  position: absolute;
+  
+  
+  
+}
+
+/* features section*/
+
+
+.col-lg-4 h3 {
+  font-family: Montserrat ;
+  font-weight: 900;
+}
+.col-lg-4 p {
+  width: 60%;
+  margin: auto;
+}
+
+
+/* Card section*/
+
+
+.bi-bullseye {
+  color: #ff4c68;
+  font-size: 70px;
+  
+}
+.bi-heart {
+  color: #ff4c68;
+  font-size: 70px;
+}
+.bi-check-circle {
+  color: #ff4c68;
+  font-size: 70px;
+
+}
+
+.bi-bullseye:hover{
+  color: red;
+}
+
+.bi-check-circle:hover{
+  color: red;
+}
+
+.bi-heart:hover {
+  color: red;
+
+}
+/*testimonial section*/
+
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+   padding-bottom: 10rem;
+  padding-top: 5rem; 
+}
+.dog {
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 5rem;
+  width: 80%;
+  margin: auto;
+}
+
+.test-img {
+  width: 10%;
+  border-radius: 50%;
+  margin-right: 10px;
+  
+}
+
+/*press section*/
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#press img {
+  width: 15%;
+  padding-right: 2%;
+}
+
+#pricing {
+  padding: 10rem 0;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.pricing-col {
+  padding: 3% 2%;
+}
+
+#features {
+  position: relative;
+  z-index: 1;
+  padding: 10rem 0;
+  
+  
+  background-color: white;
+}
+
+/*media*/
+
+
+@media (max-width:1028px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    margin-top: 15px;
+    
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+
+
+/*cta section*/
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+  padding: 10rem 0;
+}
+
+#cta h1 {
+  font-size: 70px;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+#footer {
+  text-align: center;
+  padding: 10rem 0;
+}
+
+
